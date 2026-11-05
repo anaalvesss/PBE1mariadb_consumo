@@ -20,4 +20,9 @@ router.delete('/consumos/:id', consumo.excluir);
 
 router.get('/consumos/resumo', consumo.resumo);
 
+router.get('/consumos/resumo', consumo.resumo);
+
+router.get('/consumos', consumo.listar);
+router.get('/consumos/:id', consumo.buscar);
+
 module.exports = router;
