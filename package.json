@@ -1,0 +1,28 @@
+{
+  "name": "backend_energia",
+  "version": "1.0.0",
+  "description": "Aula 10, PBE1\r  29/10/2026",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaalvesss/PBE1mariadb_consumo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anaalvesss/PBE1mariadb_consumo/issues"
+  },
+  "homepage": "https://github.com/anaalvesss/PBE1mariadb_consumo#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}
